@@ -1,0 +1,88 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+
+}
+
+
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.startBtn{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 40px;
+    background-color: yellow;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px black;
+    transition:  background 0.5s;
+}
+
+.hrule{
+    height: 1px;
+    width: 80vw;
+    background-color: rgb(121, 121, 121);
+    margin-bottom: 10px;
+}
+
+.inputField{
+    padding: 5px 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 3px black solid;
+    box-shadow: 1px 1px 1px black;
+    font-weight: bold;
+}
+
+#firstScreen, #secondScreen{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+display: none;
+}
+
+.gameBtn , .submitBtn{
+    width: fit-content;
+    font-size: large;
+    padding: 5px 10px;
+    background-color: yellow;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px black;
+    transition:  background 0.5s;
+    margin-top: 10px;
+}
+
+#firstScreen{
+    text-align: center;
+}
+#firstScreen label{
+    margin-top:20px;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+}
+#ansLabel{
+    margin:10px ;
+    width: 100%;
+    font-size: 16px !important;
+    font-weight: bold;
+}
+#errLabel{
+    margin:10px ;
+    width: fit-content !important;
+    font-size: 13px !important;
+    font-weight: bold;
+}

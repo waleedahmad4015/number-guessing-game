@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+  <h2>Number Guessing Game</h2>
+  <div class="hrule"></div>
+    <button id="startBtn" class="startBtn">Start The Game</button>
+    <div id="firstScreen">
+      <label id="minLabel" for="minInput">Give me the minimum number!</label>
+      <input class="inputField"  type="number" id="minInput">
+    <label id="maxLabel" for="maxInput">Give me the maximum number!</label>
+    <input class="inputField" type="number" id="maxInput">
+    <button id="gameBtn" class="gameBtn">Let's Start</button>
+    <label id="errLabel"></label>
+    </div>
+    <div id="secondScreen">
+      <div id="attemptsDiv">Total Attempts : <span id="attempts">0</span></div>
+    <label id="ansLabel" for="ansInput"></label>
+    <input  class="inputField" type="number" placeholder="Guess The Number!" id="guessInput">
+    <button id="submitBtn" class="submitBtn">Submit</button>
+    <Label id="clueLabel"></Label>
+    <button id="restartBtn" style="display: none;" class="gameBtn">Start Again</button>
+    </div>
+  </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
