@@ -32,10 +32,10 @@ This is an interactive web-based number guessing game built with HTML, CSS, and 
 3. Run the following command:
 
    ```
-   git clone https://github.com/yourusername/number-guessing-game.git
+   git clone https://github.com/waleedahmad4015/number-guessing-game.git
    ```
 
-   Replace `yourusername` with your actual GitHub username if you've hosted the project on GitHub.
+   Replace `waleedahmad4015` with your actual GitHub username if you've hosted the project on GitHub.
 
 4. Once the cloning is complete, navigate into the project directory:
 
